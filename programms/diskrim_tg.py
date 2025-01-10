@@ -1,7 +1,7 @@
 import math
 import telebot
 
-TOKEN = ("введите свой токен от бота сюда")
+TOKEN = input("Введите токен от бота, который вы получите в боте BotFather: ")
 bot = telebot.TeleBot(TOKEN)
 
 
